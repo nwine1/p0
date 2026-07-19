@@ -2,8 +2,7 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 function NavBar() {
-	return
-	<>
+	return (
 		<Navbar bg="dark" variant="dark" expand="md">
 			<Container>
 				<Nav.Item>
@@ -20,6 +19,6 @@ function NavBar() {
 				</NavDropdown>
 			</Container>
 		</Navbar>
-	</>
+	)
 }
 export default NavBar
